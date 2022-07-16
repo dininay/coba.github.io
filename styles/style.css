@@ -1,0 +1,179 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+p {
+    line-height: 24px;
+}
+
+/* header */
+header {
+    display: inline;
+}
+
+.jumbotron {
+    background-color: #887363;
+    color: #e0d8b0;
+    padding: 200px;
+    text-align: center;
+}
+
+.jumbotron h2 {
+    font-size: 48px;
+}
+
+.jumbotron p {
+    font-size: 20px;
+}
+
+nav {
+    background-color: #bea08d;
+    color: #e0d8b0;
+    padding: 1px 0 1px 0;
+    position: sticky;
+    top: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #1F1A17;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* main */
+main {
+    padding: 50px;
+    overflow: auto;
+}
+
+#content {
+    float: auto;
+    text-align: center;
+}
+
+#content {
+    float: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#contentleft {
+    float: left;
+    width: 45%;
+    text-align: center;
+}
+
+#contentright {
+    float: right;
+    width: 45%;
+    text-align: center;
+}
+
+#content1 {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+#content2 {
+    float: left;
+    padding-left: 5%;
+    width: 25%;
+    text-align: center;
+}
+
+#content4 {
+    float: right;
+    padding-right: 5%;
+    width: 25%;
+    text-align: center;
+}
+
+#content3 {
+    float: right;
+    padding-right: 5%;
+    width: 25%;
+    text-align: center;
+}
+
+.fcp {
+    background-color: #bea08d; 
+    color: antiquewhite;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.profile img {
+    width: 200px;
+}
+
+.profile header {
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.img-aboutmee {
+	display: block;
+    width: 50%;
+    margin-bottom: 10px;
+    max-height: 500px;
+    size-adjust: 1;
+}
+
+.img-project {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img-contact {
+    display: block;
+    width: 10%;
+    margin-bottom: 10px;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* footer */
+footer {
+    padding: 25px 0 25px 0;
+    text-align: center;
+    background-color: #887363;
+    color: #e0d8b0;
+    margin-top: 20px;
+}
+
+
